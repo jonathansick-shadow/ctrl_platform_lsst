@@ -19,7 +19,7 @@ mkdir -p output/processCcd_config
 mkdir -p output/processCcd_metadata
 mkdir -p output/sci-results
 
-ln -s $DATADIR/registry.sqlite3 output/registry.sqlite3
+#ln -s $DATADIR/registry.sqlite3 output/registry.sqlite3
 
 export EUPS_PATH=$EUPS_PATH
 echo `hostname`

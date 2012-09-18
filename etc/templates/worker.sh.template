@@ -79,6 +79,7 @@ modstring=${workerid}
 time1=$(date -d "`date`" "+%s")
 
 
+echo "$COMMAND >> ${rundir}/logs/$shost/$cslot/S2012Pipe-${modstring}.log  2>&1"
 $COMMAND >> ${rundir}/logs/$shost/$cslot/S2012Pipe-${modstring}.log  2>&1
 
 

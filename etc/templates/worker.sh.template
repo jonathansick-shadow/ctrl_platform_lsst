@@ -1,13 +1,10 @@
 #!/bin/sh
 
+echo "env is:"
+env
+echo "done with env"
+
 export HERE=$PWD
-
-export HOME=$USERHOME
-export SHELL=/bin/sh
-export USER=$USERNAME
-source /etc/bashrc
-
-#module add gnu/4.6.1
 
 /bin/hostname -f 
 shost=`/bin/hostname -s`
@@ -41,12 +38,6 @@ cd ${rundir}
 cslot=${_CONDOR_SLOT}
 
 mkdir -p logs/$shost/$cslot
-
-source ./env.sh
-
-#export LSST_HOME=$LSST_HOME
-export EUPS_PATH=$EUPS_PATH
-
 
 temp=""
 

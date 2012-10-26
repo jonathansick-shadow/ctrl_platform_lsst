@@ -8,6 +8,7 @@ export HERE=$PWD
 
 runid=$1 
 workerid=$2 
+echo "runid = "$runid
 shift 2
 /bin/hostname -f 
 shost=`/bin/hostname -s`

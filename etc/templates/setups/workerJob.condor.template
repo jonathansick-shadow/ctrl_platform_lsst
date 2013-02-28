@@ -1,5 +1,8 @@
 universe=vanilla
 
+job_ad_information_attrs = MachineSlotName
++MachineSlotName = "$$(Name)"
+
 executable=$ORCA_SCRIPT
 
 transfer_executable=true

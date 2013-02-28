@@ -1,7 +1,7 @@
 universe=vanilla
 
 job_ad_information_attrs = MachineSlotName
-+MachineSlotName = "$$(Name)
++MachineSlotName = "$$(Name)"
 
 # executable=/bin/hostname
 # arguments=-f

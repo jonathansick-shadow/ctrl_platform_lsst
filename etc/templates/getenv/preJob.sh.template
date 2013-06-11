@@ -11,3 +11,5 @@ mkdir -p logs
 mkdir -p output
 
 eups list --setup > eups.list 
+id_option=""
+$COMMAND

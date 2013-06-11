@@ -63,3 +63,6 @@ date
 #
 #
 eups list --setup > eups.list 
+
+id_option=""
+$COMMAND
